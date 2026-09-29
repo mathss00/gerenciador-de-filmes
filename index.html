@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="imagem-logo.png" alt="">
+     <h1>
+        Gerenciador de filmes e séries
+    </h1>
+     
+    </div>
+     <br>
+    <p>Gerencie seus filmes e séries de forma rápida e fácil !</p>
+    
+   
+
+    
+
+
+    <div class="primeiraLinha">
+        <div class="cadastrar">
+            
+            <button onclick="criarItem()">
+                
+                Cadastrar filme ou série</button>
+        </div>
+        <div class="deletarId">
+            <button onclick="removerItem()"> Deletar filme ou série por id</button>
+        </div>
+        <div class="exibirTodos">
+            <button onclick="listarItens()"> Exibir todos os filmes e séries</button>
+        </div>
+    </div>
+    <div class="segundaLinha">
+        <div class="buscarID">
+            <button onclick="buscarItem()"> Buscar filme ou série</button>
+        </div>
+        <div class="removerUltimo">
+            <button onclick="removerUltimo()"> Remover o último </button>
+        </div>
+        <div class="limparTodos">
+            <button onclick="limparTodos()"> Limpar todos </button>
+        </div>
+    </div>
+    <div class="exibirTotal">
+        <button onclick="ExibirTotal()"> Exibir total </button>
+    </div>
+    
+
+<h2>Filmes em Cartaz</h2>
+
+<div class="filmes-cartaz">
+    <div class="filmeOdisseia">
+        <img src="odisseia.jpg" alt="">
+        <h3>Odisseia</h3>
+    </div>
+
+    <div class="filmeToy">
+        <img src="toy.webp" alt="">
+        <h3>Toy Story 5</h3>
+    </div>
+    <div class="filmeHomem">
+        <img src="homem-aranha.jpg" alt="">
+        <h3>homem Aranha um novo dia</h3>
+    </div>
+    <div class="filmeVingadores">
+        <img src="vingadores.webp" alt="">
+        <h3>Vingadores Ultimato Encore</h3>
+    </div>
+    <div class="filmedoomsday">
+        <img src="vingadores-doomsday.jpg" alt="">
+        <h3>Vingadores Doomsday</h3>
+    </div>
+</div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
